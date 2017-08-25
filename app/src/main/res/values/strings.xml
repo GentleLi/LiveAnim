@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LiveAnim</string>
+    <string name="gift_num">X%d</string>
+</resources>
