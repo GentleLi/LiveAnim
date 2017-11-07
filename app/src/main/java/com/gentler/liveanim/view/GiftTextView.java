@@ -50,7 +50,7 @@ public class GiftTextView extends AppCompatTextView {
     }
 
     private void init() {
-        mScaleAnimation = new ScaleAnimation(2.0f, 1.0f, 3.2f, 1.0f, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
+        mScaleAnimation = new ScaleAnimation(2.0f, 1.0f, 2.0f, 1.0f, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
         mScaleAnimation.setDuration(300);
         mScaleAnimation.setRepeatMode(1);
 //        mScaleAnimation.setInterpolator(new AccelerateDecelerateInterpolator());
@@ -79,9 +79,6 @@ public class GiftTextView extends AppCompatTextView {
         mScaleY = ObjectAnimator.ofFloat(this, "scaleY", 1.6f,2.4f,1.0f);
 
         ValueAnimator valueAnimator=ValueAnimator.ofObject(new ColorEvaluator(),"#0000FF","#FF0000");
-
-
-
         mColorAnim = ObjectAnimator.ofObject(
                 this,
                 "textColor",

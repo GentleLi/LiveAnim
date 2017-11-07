@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.btn_send)
     protected void onClickSend(View view){
-//        mGiftTextView.doTweenScale();
-        mGiftTextView.doObjectScale();
+        mGiftTextView.doTweenScale();
+//        mGiftTextView.doObjectScale();
     }
 
 }

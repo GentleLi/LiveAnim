@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context="com.gentler.liveanim.MainActivity">
 
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+
+
+    </LinearLayout>
+
 
     <com.gentler.liveanim.view.GiftTextView
         android:id="@+id/tv_gift_num"
